@@ -47,6 +47,19 @@
         width: 100vw;
         height: 50vh;
 
+        
+            #res-response-cont {
+                .response {
+                    h1 {
+                        font-size: 20px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+
         .btn {
             font-size: 12px;
         }

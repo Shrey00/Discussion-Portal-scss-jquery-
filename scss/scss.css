@@ -207,6 +207,12 @@ header {
     width: 100vw;
     height: 50vh;
   }
+  #ans-container #res-response-cont .response h1 {
+    font-size: 20px;
+  }
+  #ans-container #res-response-cont .response p {
+    font-size: 12px;
+  }
   #ans-container .btn {
     font-size: 12px;
   }
