@@ -217,3 +217,20 @@ header {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+@media(max-width:768px){
+    #main-container{
+        flex-direction: column;
+    }
+    #que-container{
+        width: 100vw;
+        height: 50vh;
+    }
+    #ans-container{
+        width: 100vw;
+        height: 50vh;
+    }
+    .vl{
+        display: none;
+    }
+}
