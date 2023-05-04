@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.vl {
+  height: 100%;
+  border-left: 1px solid grey;
+}
+
+header {
+  padding: 5px 10px;
+  height: 3.5rem;
+  width: 100%;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  background-color: #FF6969;
+  color: #FFF9DE;
+}
+
+#main-container {
+  display: flex;
+  height: 90vh;
+  position: relative;
+}
+
+#que-container {
+  height: 100%;
+  width: 35vw;
+  overflow: auto;
+  background-color: #FFF9DE;
+}
+#que-container .btn {
+  background-color: #FF6969;
+  border: 0px;
+}
+
+#que-list-container {
+  font-family: "Crimson Pro", serif;
+}
+#que-list-container .question {
+  cursor: pointer;
+  background-color: #FF6969;
+  color: #FFF9DE;
+  border-radius: 8px;
+  margin: 10px 10px;
+  padding: 6px;
+}
+#que-list-container .question p {
+  margin: 0px 8px;
+  font-size: 20px;
+}
+#que-list-container .question h1 {
+  margin: 0px 8px;
+}
+
+#search-box {
+  padding: 15px 10px;
+  border-bottom: 1px solid #FF6969;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 0.25rem;
+}
+#search-box .input {
+  margin-left: 20px;
+}
+
+#ans-container {
+  height: 100%;
+  width: 65vw;
+  overflow: auto;
+}
+#ans-container .btn {
+  background-color: #FF6969;
+  border: 0px;
+}
+
+.input {
+  padding: 0.25em;
+  resize: none;
+  border: 0px;
+  outline: 1px solid black;
+  border-radius: 4px;
+}
+.input:focus {
+  outline: 2px solid black;
+}
+
+.user-form {
+  padding: 2em;
+}
+.user-form .ele {
+  padding: 0.25rem 0em;
+}
+.user-form textarea {
+  height: 10rem;
+  width: 50vw;
+}
+.user-form .input-container {
+  width: 50vw;
+}
+.user-form #que-submit {
+  float: right;
+}
+
+#res-cont .heading {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: grey;
+}
+#res-cont .item-cont {
+  width: 85%;
+  margin: 4%;
+}
+#res-cont #add-response-cont h1 {
+  font-size: 20px;
+}
+#res-cont .btn {
+  background-color: #FF6969;
+}
+#res-cont .question {
+  background-color: #FFF9DE;
+  font-family: "Lora", serif;
+}
+#res-cont .question h1 {
+  margin: 8px;
+}
+#res-cont .question p {
+  margin: 8px;
+}
+
+#res-response-cont .response {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid grey;
+  background-color: #FFF9DE;
+}
+#res-response-cont .response p {
+  margin: 0px 4px;
+  font-size: 20px;
+}
+#res-response-cont .response h1 {
+  margin: 0px 4px;
+}
+
+#no-match-text {
+  padding: 0.5em;
+  background-color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}/*# sourceMappingURL=scss.css.map */

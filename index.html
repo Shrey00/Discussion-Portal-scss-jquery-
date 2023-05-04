@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/scss.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Lora&family=Montserrat&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Discussion Portal</h1>
+    </header>
+    <div id="main-container">
+        <div id="que-container">
+            <div id="search-box">
+                <button id="que-submit" type="button" class="btn btn-primary" onclick="showNewQuestionForm()">New
+                    Question Form</button>
+                <input id="search-questions" class="input" type="text" placeholder="search questions.." />
+            </div>
+            <div id="que-list-container">
+
+            </div>
+        </div>
+        <div class="vl"></div>
+        <div id="ans-container">
+            <!-- <div id="que-form" class = "user-form">
+                <h1>Welcome to Discussion Portal !</h1>
+                <p>Enter a subject to get started</p>
+                <div class = "input-container" >
+                    <div class="ele">
+                        <input name = "subject" id = "subject" class="input" type="text" placeholder="Subject" />
+                    </div>
+                    <div class="ele">
+                        <textarea name = "question" class="input" placeholder="Question"></textarea>
+                    </div>
+                    <button onclick = "addQuestion()" id="que-submit" type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
