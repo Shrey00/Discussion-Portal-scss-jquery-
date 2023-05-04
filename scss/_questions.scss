@@ -1,0 +1,51 @@
+
+#que-container {
+    .btn {
+        background-color: $primary-color;
+        border: 0px;
+    }
+
+    height: 100%;
+    width: 35vw;
+    overflow: auto;
+    // position: relative;
+    background-color: $secondary-color;
+}
+
+#que-list-container {
+    // overflow: scroll;
+    font-family: 'Crimson Pro', serif;
+
+    .question {
+        cursor: pointer;
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-radius: 8px;
+        margin: 10px 10px;
+        padding: 6px;
+
+        p {
+            margin: 0px 8px;
+            font-size: 20px;
+        }
+
+        h1 {
+            margin: 0px 8px;
+        }
+    }
+}
+
+#search-box {
+    padding: 15px 10px;
+    border-bottom: 1px solid $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 0.25rem;
+
+    // position: fixed;
+    .input {
+        margin-left: 20px;
+    }
+}

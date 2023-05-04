@@ -1,0 +1,58 @@
+@media(max-width:768px) {
+    #main-container {
+        flex-direction: column;
+    }
+
+    #que-container {
+        order: 2;
+        width: 100vw;
+        height: 50vh;
+
+        .question {
+            h1 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        .input {
+            width: 40%;
+        }
+
+        textarea {
+            height: 4rem;
+        }
+        .btn{
+            font-size:12px;
+        }
+    }
+
+    #ans-container {
+        order: 1;
+        width: 100vw;
+        height: 50vh;
+
+        h1 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .input {
+            width: 100%;
+        }
+
+        textarea {
+            height: 4rem;
+        }
+    }
+
+    .vl {
+        display: none;
+    }
+}

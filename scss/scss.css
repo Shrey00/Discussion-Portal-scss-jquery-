@@ -1,3 +1,22 @@
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -77,34 +96,6 @@ header {
   border: 0px;
 }
 
-.input {
-  padding: 0.25em;
-  resize: none;
-  border: 0px;
-  outline: 1px solid black;
-  border-radius: 4px;
-}
-.input:focus {
-  outline: 2px solid black;
-}
-
-.user-form {
-  padding: 2em;
-}
-.user-form .ele {
-  padding: 0.25rem 0em;
-}
-.user-form textarea {
-  height: 10rem;
-  width: 50vw;
-}
-.user-form .input-container {
-  width: 50vw;
-}
-.user-form #que-submit {
-  float: right;
-}
-
 #res-cont .heading {
   font-family: "Lora", serif;
   font-size: 18px;
@@ -145,6 +136,34 @@ header {
   margin: 0px 4px;
 }
 
+.input {
+  padding: 0.25em;
+  resize: none;
+  border: 0px;
+  outline: 1px solid black;
+  border-radius: 4px;
+}
+.input:focus {
+  outline: 2px solid black;
+}
+
+.user-form {
+  padding: 2em;
+}
+.user-form .ele {
+  padding: 0.25rem 0em;
+}
+.user-form textarea {
+  height: 10rem;
+  width: 50vw;
+}
+.user-form .input-container {
+  width: 50vw;
+}
+.user-form #que-submit {
+  float: right;
+}
+
 #no-match-text {
   padding: 0.5em;
   background-color: white;
@@ -152,36 +171,46 @@ header {
   font-size: 25px;
 }
 
-::-webkit-scrollbar {
-  width: 2px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
 @media (max-width: 768px) {
   #main-container {
     flex-direction: column;
   }
   #que-container {
+    order: 2;
     width: 100vw;
     height: 50vh;
   }
+  #que-container .question h1 {
+    font-size: 20px;
+  }
+  #que-container .question p {
+    font-size: 12px;
+  }
+  #que-container .input {
+    width: 40%;
+  }
+  #que-container textarea {
+    height: 4rem;
+  }
+  #que-container .btn {
+    font-size: 12px;
+  }
   #ans-container {
+    order: 1;
     width: 100vw;
     height: 50vh;
+  }
+  #ans-container h1 {
+    font-size: 20px;
+  }
+  #ans-container p {
+    font-size: 14px;
+  }
+  #ans-container .input {
+    width: 100%;
+  }
+  #ans-container textarea {
+    height: 4rem;
   }
   .vl {
     display: none;
