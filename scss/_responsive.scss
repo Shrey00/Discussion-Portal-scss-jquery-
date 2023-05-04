@@ -1,4 +1,12 @@
 @media(max-width:768px) {
+    header {
+        height: 2.6rem;
+
+        h1 {
+            font-size: 24px;
+        }
+    }
+
     #main-container {
         flex-direction: column;
     }
@@ -7,6 +15,7 @@
         order: 2;
         width: 100vw;
         height: 50vh;
+
 
         .question {
             h1 {
@@ -19,14 +28,17 @@
         }
 
         .input {
-            width: 40%;
+            width: 49%;
+            font-size: 13px;
         }
 
         textarea {
             height: 4rem;
         }
-        .btn{
-            font-size:12px;
+
+        .btn {
+            font-size: 12px;
+
         }
     }
 
@@ -34,6 +46,10 @@
         order: 1;
         width: 100vw;
         height: 50vh;
+
+        .btn {
+            font-size: 12px;
+        }
 
         h1 {
             font-size: 20px;

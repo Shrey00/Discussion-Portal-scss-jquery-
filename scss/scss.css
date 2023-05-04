@@ -172,6 +172,12 @@ header {
 }
 
 @media (max-width: 768px) {
+  header {
+    height: 2.6rem;
+  }
+  header h1 {
+    font-size: 24px;
+  }
   #main-container {
     flex-direction: column;
   }
@@ -187,7 +193,8 @@ header {
     font-size: 12px;
   }
   #que-container .input {
-    width: 40%;
+    width: 49%;
+    font-size: 13px;
   }
   #que-container textarea {
     height: 4rem;
@@ -199,6 +206,9 @@ header {
     order: 1;
     width: 100vw;
     height: 50vh;
+  }
+  #ans-container .btn {
+    font-size: 12px;
   }
   #ans-container h1 {
     font-size: 20px;
